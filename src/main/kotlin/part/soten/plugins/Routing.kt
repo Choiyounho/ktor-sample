@@ -5,11 +5,8 @@ import io.ktor.server.application.*
 import io.ktor.server.request.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
-import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
-import org.jetbrains.exposed.sql.transactions.transaction
 import part.soten.Sample
-import part.soten.User
 import java.io.File
 
 
